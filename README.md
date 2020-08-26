@@ -1,7 +1,7 @@
 # vue_router
 
 ## Task Features
-- [ ] Menu tiap data (Home, Album, Post, Photo)
+- [x] Menu tiap data (Home, Album, Post, Photo)
 - [ ] Halaman List tiap data (Home, Album, Post, Photo)
 - [ ] Halaman Detail tiap data (Album, Post, Photo)
 - [ ] Array Pagination di halaman list tiap data (Home, Album, Post, Photo)
