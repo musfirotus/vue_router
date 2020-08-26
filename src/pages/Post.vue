@@ -5,6 +5,8 @@
 </template>
 
 <script>
+import posts from '../assets/dummy/post'
+
 export default {
   name: 'PostPage',
   created: () => {
