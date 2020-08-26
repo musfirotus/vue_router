@@ -1,8 +1,13 @@
 <template>
   <div>
-    Post Pages
+    Post Page
     {{ message }}
-    {{ $route.params.id }}
+
+    <ul>
+      <li v-for="(post, i) in postList" :key="i">
+        {{ post.title }} - {{ post.id }}
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -19,7 +24,6 @@ export default {
   },
   created() {
     console.log('Post created.');
-    // this.postList = posts;
   }
 }
 </script>

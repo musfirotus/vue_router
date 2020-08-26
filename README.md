@@ -2,9 +2,18 @@
 
 ## Task Features
 - [x] Menu tiap data (Home, Album, Post, Photo)
-- [ ] Halaman List tiap data (Home, Album, Post, Photo)
-- [ ] Halaman Detail tiap data (Album, Post, Photo)
-- [ ] Array Pagination di halaman list tiap data (Home, Album, Post, Photo)
+- [x] Halaman List tiap data :
+  - [x] Album
+  - [x] Post
+  - [x] Photo
+- [ ] Halaman Detail tiap data :
+  - [ ] Album
+  - [ ] Post
+  - [ ] Photo
+- [ ] Array Pagination di halaman list tiap data :
+  - [ ] Album
+  - [ ] Post
+  - [ ] Photo
 
 ## Project setup
 ```

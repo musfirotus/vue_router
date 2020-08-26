@@ -13,10 +13,6 @@ const routes = [
     component: Post,
     children: [
       {
-        path: "",
-        component: Post
-      },
-      {
         path: "/detail/:id",
         component: PostDetail
       }

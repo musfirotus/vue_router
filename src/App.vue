@@ -2,7 +2,6 @@
   <div id="app" class="flex flex-wrap h-screen justify-between">
     <Header />
     <Body />
-    <Widget />
     <Footer />
   </div>
 </template>
