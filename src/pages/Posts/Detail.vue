@@ -1,13 +1,8 @@
 <template>
   <div>
-    Post Page
+    Post Detail Page
     {{ message }}
-
-    <ul>
-      <li v-for="(post, i) in postList" :key="i">
-        {{ post.title }} - {{ post.id }}
-      </li>
-    </ul>
+    {{ $route.params.id }}
   </div>
 </template>
 
@@ -18,8 +13,7 @@ export default {
   name: 'PostDetail',
   data() {
     return {
-      postList: posts,
-      message: "halo"
+      postList: posts
     }
   },
   created() {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    Photo Page
+    Detail Photo Page
     {{ message }}
 
     <ul>
@@ -18,13 +18,11 @@ export default {
   name: 'PhotoPage',
   data() {
     return {
-      photoList: photos,
-      message: "halo"
+      photoList: photos
     }
   },
   created() {
     console.log('Photo created.');
-    // this.photoList = photos
   }
 }
 </script>

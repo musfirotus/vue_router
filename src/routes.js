@@ -8,20 +8,12 @@ import AlbumDetail from './pages/Albums/Detail.vue'
 
 const routes = [
   { path: '/', component: Home },
-  {
-    path: '/post',
-    component: Post,
-    children: [
-      {
-        path: "/detail/:id",
-        component: PostDetail
-      }
-    ]
-  },
+  { path: '/post', component: Post },
+  { path: '/post/detail/:id', component: PostDetail },
   { path: '/photo', component: Photo },
-  { path: '/photo/:id', component: PhotoDetail },
+  { path: '/photo/detail/:id', component: PhotoDetail },
   { path: '/album', component: Album },
-  { path: '/album/:id', component: AlbumDetail }
+  { path: '/album/detail/:id', component: AlbumDetail }
 ]
 
 export default routes;

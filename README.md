@@ -10,10 +10,10 @@
   - [ ] Album
   - [ ] Post
   - [ ] Photo
-- [ ] Array Pagination di halaman list tiap data :
-  - [ ] Album
-  - [ ] Post
-  - [ ] Photo
+- [x] Array Pagination di halaman list tiap data :
+  - [x] Album
+  - [x] Post
+  - [x] Photo
 
 ## Project setup
 ```

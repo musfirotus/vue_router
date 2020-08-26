@@ -19,7 +19,7 @@ const router = new VueRouter({
 Vue.mixin({
   data: function() {
     return {
-      paginate: ["posting"],
+      paginate: ["posting", "draftalbum", 'draftphoto'],
     };
   },
 });
