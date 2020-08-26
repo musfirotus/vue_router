@@ -1,5 +1,11 @@
 # vue_router
 
+## Task Features
+- [ ] Menu tiap data (Home, Album, Post, Photo)
+- [ ] Halaman List tiap data (Home, Album, Post, Photo)
+- [ ] Halaman Detail tiap data (Home, Album, Post, Photo)
+- [ ] Array Pagination di halaman list tiap data (Home, Album, Post, Photo)
+
 ## Project setup
 ```
 npm install
