@@ -1,6 +1,13 @@
 <template>
   <div>
     Photo Page
+    {{ message }}
+
+    <ul>
+      <li v-for="(photo, i) in photoList" :key="i">
+        {{ photo.title }} - {{ photo.id }}
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -9,8 +16,15 @@ import photos from '../assets/dummy/photo'
 
 export default {
   name: 'PhotoPage',
-  created: () => {
+  data() {
+    return {
+      photoList: [],
+      message: "halo"
+    }
+  },
+  created() {
     console.log('Photo created.');
+    this.photoList = photos
   }
 }
 </script>

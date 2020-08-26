@@ -1,6 +1,13 @@
 <template>
   <div>
     Album Page
+    {{ message }}
+
+    <ul>
+      <li v-for="(album, i) in albumList" :key="i">
+        {{ album.title }} - {{ album.id }}
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -9,8 +16,15 @@ import albums from '../assets/dummy/album'
 
 export default {
   name: 'AlbumPage',
-  created: () => {
+  data() {
+    return {
+      albumList: [],
+      message: "halo"
+    }
+  },
+  created() {
     console.log('Album created.');
+    this.albumList = albums
   }
 }
 </script>
