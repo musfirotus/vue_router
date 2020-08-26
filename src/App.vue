@@ -1,42 +1,41 @@
 <template>
-  <div id="app">
-    <h1>Hello App!</h1>
-    <p>
-      <!-- use router-link component for navigation. -->
-      <!-- specify the link by passing the `to` prop. -->
-      <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
+  <div id="app" class="flex flex-wrap">
+    <Header />
+    <NavBar>
       <router-link to="/">Home</router-link>
       <router-link to="/post">Post</router-link>
       <router-link to="/photo">Photo</router-link>
       <router-link to="/album">Album</router-link>
-    </p>
-    <!-- route outlet -->
-    <!-- component matched by the route will render here -->
+    </NavBar>
+    <SideBar />
+    <Widget />
+    <Body />
+    <Footer />
     <router-view></router-view>
     <!-- <hr />
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <img alt="Vue logo" src="./assets/logo.png"> -->
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import NavBar from './components/NavBar.vue'
+import SideBar from './components/SideBar.vue'
+import Widget from './components/Widget.vue'
+import Body from './components/Body.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
+    Header,
+    NavBar,
+    SideBar,
+    Widget,
+    Body,
+    Footer
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style src="./assets/css/styles.css"></style>
