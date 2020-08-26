@@ -69,26 +69,32 @@
 - buat file styles.css dan postcss.config.js di folder src
 - npm install --save tailwindcss
 - open styles.css , paste :
+  ```
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
+  ```
 - npx tailwindcss init -> untuk generate file tailwind.config.css yg isinya :
+  ```
     module.exports = {
       theme: {
-          extend: {},
-        },
-        variants: {},
-        plugins: [],
-      }
+        extend: {},
+      },
+      variants: {},
+      plugins: [],
+    }
+  ```
 - npm install --save postcss-cli autoprefixer
 - Buat file postcss.config.js untuk convert js ke css
 - Paste ke postcss.config.js :
+  ```
     module.exports = {
-        plugins: [
-            require('tailwindcss'),
-            require('autoprefixer'),
-        ]
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+      ]
     }
+  ```
 - Buka package.json dan paste di object script :
     "build": "postcss styles.css -o assets/css/styles.css"
 - npm run build -> untuk generate file assets/css/styles.css
