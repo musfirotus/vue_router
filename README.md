@@ -3,9 +3,9 @@
 ## Task Features
 | No. | Features      | Home | Album | Post | Photo |
 |:---:|:-------------:|:----:|:-----:|:----:|:-----:|
-| 1.  | col 3 is      | [ ]  | [ ]   | [ ]  | [ ]   |
-| 2.  | col 2 is      | [ ]  | [ ]   | [ ]  | [ ]   |
-| 3.  | zebra stripes | [ ]  | [ ]   | [ ]  | [ ]   |
+| 1.  | Menu          | [x]  | [ ]   | [ ]  | [ ]   |
+| 2.  | Halaman List  | [x]  | [ ]   | [ ]  | [ ]   |
+| 3.  | Halaman List  | [x]  | [ ]   | [ ]  | [ ]   |
 - [x] Menu tiap data (Home, Album, Post, Photo)
 - [x] Implementasi Component yang berbeda-beda (Sidebar dll)
 - [x] Halaman List tiap data :
