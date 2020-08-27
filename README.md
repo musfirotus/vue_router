@@ -4,10 +4,10 @@
 | No. | Features             | Home               | Album              | Post               | Photo              |
 |:---:|:--------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
 | 1.  | Menu                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 2.  | Halaman List         | :heavy_check_mark: | :heavy_check_mark: |  |  |
-| 3.  | Halaman Detail       | :heavy_check_mark: | :heavy_check_mark: |  |  |
+| 2.  | Halaman List         | :heavy_check_mark: | :heavy_check_mark: | :heavy_multiplication_x: | :heavy_multiplication_x: |
+| 3.  | Halaman Detail       | :heavy_check_mark: | :heavy_check_mark: | :heavy_multiplication_x: | :heavy_multiplication_x: |
 | 4.  | Array Pagination     | -                  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 4.  | Sidebar (named view) |  |  |  |  |
+| 4.  | Sidebar (named view) | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: |
 - [x] Implementasi Component yang berbeda-beda (Sidebar dll)
 - [ ] Import vue router menggunakan "lazy loading router"
 - [ ] Semua router-link menggunakan "name"
