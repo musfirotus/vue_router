@@ -15,12 +15,12 @@
               <div class="title-post font-medium">{{ photo.title }}</div>
               <div class="summary-post text-base text-justify">
                 <router-link class="bg-blue-100 text-blue-500 mt-4 block rounded p-2 text-sm" :to="'/photo/detail/'+photo.id">
-                  <span class="">Read Mode</span>
+                  Read Mode
                 </router-link>
               </div>
             </div>
           </div>
-</paginate>
+        </paginate>
         <paginate-links for="draftphoto" :limit="5" class="mt-8"></paginate-links>
       </div>
     </section>
