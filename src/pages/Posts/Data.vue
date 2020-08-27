@@ -23,9 +23,6 @@
               </div>
             </div>
           </paginate>
-          <!-- <span v-if="$refs.paginator">
-            Viewing {{ $refs.paginator.pageItemsCount }} results
-          </span> -->
           <paginate-links for="posting" :limit="10" class="mt-8"></paginate-links>
         </div>
         
