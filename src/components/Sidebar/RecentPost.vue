@@ -20,6 +20,6 @@
 
 <script>
   export default {
-    name: 'SideBar'
+    name: 'RecentPost'
   }
 </script>

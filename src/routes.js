@@ -8,26 +8,33 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: () =>
-      import(/* webpackChunkName: "Home" */ "./pages/Home.vue"),
+    components: {
+      default: () =>import(/* webpackChunkName: "Home" */ "./pages/Home.vue"),
+      'sidebar': () => import(/* webpackChunkName: "HomeSidebar" */ "./components/Sidebar/RecentPost.vue")
+    }
   },
   {
     path: "/post",
-    name: "PostIndexes",
-    component: () =>
-      import(/* webpackChunkName: "PostIndex" */ "./pages/Posts/Index.vue"),
+    components: {
+      default: () =>import(/* webpackChunkName: "PostIndex" */ "./pages/Posts/Index.vue"),
+      'sidebar': () => import(/* webpackChunkName: "PostSidebar" */ "./components/Sidebar/RecentPost.vue")
+    },
     children: [
       {
         path: "",
         name: "Posts",
-        component: () =>
-          import(/* webpackChunkName: "PostData" */ "./pages/Posts/Data.vue")
+        components: {
+          default: () =>import(/* webpackChunkName: "PostData" */ "./pages/Posts/Data.vue"),
+          'sidebar': () => import(/* webpackChunkName: "PostSidebar" */ "./components/Sidebar/RecentPost.vue")
+        }
       },
       {
         path: "detail/:id",
         name: "DetailPost",
-        component: () =>
-          import(/* webpackChunkName: "PostDetail" */ "./pages/Posts/Detail.vue")
+        components: {
+          default: () =>import(/* webpackChunkName: "PostDetail" */ "./pages/Posts/Detail.vue"),
+          'sidebar': () => import(/* webpackChunkName: "PostSidebar" */ "./components/Sidebar/RecentPost.vue")
+        }
       },
     ],
     beforeEnter: (to, from, next) => {
@@ -39,41 +46,51 @@ const routes = [
   },
   {
     path: "/photo",
-    name: "PhotoIndexes",
-    component: () =>
-      import(/* webpackChunkName: "PhotoIndex" */ "./pages/Photos/Index.vue"),
+    components: {
+      default: () =>import(/* webpackChunkName: "PhotoIndex" */ "./pages/Photos/Index.vue"),
+      'sidebar': () => import(/* webpackChunkName: "PhotoSidebar" */ "./components/Sidebar/RecentPhoto.vue")
+    },
     children: [
       {
         path: "",
         name: "Photos",
-        component: () =>
-          import(/* webpackChunkName: "PhotoData" */ "./pages/Photos/Data.vue")
+        components: {
+          default: () =>import(/* webpackChunkName: "PhotoData" */ "./pages/Photos/Data.vue"),
+          'sidebar': () => import(/* webpackChunkName: "PhotoSidebar" */ "./components/Sidebar/RecentPhoto.vue")
+        }
       },
       {
         path: "detail/:id",
         name: "DetailPhoto",
-        component: () =>
-          import(/* webpackChunkName: "PhotoDetail" */ "./pages/Photos/Detail.vue")
+        components: {
+          default: () =>import(/* webpackChunkName: "PhotoDetail" */ "./pages/Photos/Detail.vue"),
+          'sidebar': () => import(/* webpackChunkName: "PhotoSidebar" */ "./components/Sidebar/RecentPhoto.vue")
+        }
       },
     ],
   },
   {
     path: "/album",
-    name: "AlbumIndexes",
-    component: () =>
-          import(/* webpackChunkName: "AlbumIndex" */ "./pages/Albums/Index.vue"),
+    components: {
+      default: () =>import(/* webpackChunkName: "AlbumIndex" */ "./pages/Albums/Index.vue"),
+      'sidebar': () => import(/* webpackChunkName: "AlbumSidebar" */ "./components/Sidebar/RecentAlbum")
+    },
     children: [
       {
         path: "",
         name: "Albums",
-        component: () =>
-          import(/* webpackChunkName: "AlbumData" */ "./pages/Albums/Data.vue")
+        components: {
+          default: () =>import(/* webpackChunkName: "AlbumData" */ "./pages/Albums/Data.vue"),
+          'sidebar': () => import(/* webpackChunkName: "AlbumSidebar" */ "./components/Sidebar/RecentAlbum")
+        }
       },
       {
         path: "detail/:id",
         name: "DetailAlbum",
-        component: () =>
-          import(/* webpackChunkName: "AlbumDetail" */ "./pages/Albums/Detail.vue")
+        components: {
+          default: () =>import(/* webpackChunkName: "AlbumDetail" */ "./pages/Albums/Detail.vue"),
+          'sidebar': () => import(/* webpackChunkName: "AlbumSidebar" */ "./components/Sidebar/RecentAlbum")
+        }
       },
     ],
   },
