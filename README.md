@@ -10,11 +10,17 @@
 | 4.  |   Array Pagination   |            -             |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |
 | 4.  | Sidebar (named view) | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: |
 
-- [x] Implementasi Component yang berbeda-beda (Sidebar dll)
-- [ ] Import vue router menggunakan "lazy loading router"
-- [ ] Semua router-link menggunakan "name"
-- [ ] Tambah "guard auth" di tipe data post
-- [ ] Reusable Pagination (optional)
+- [ ] Album relation to Photo
+- [x] Implementasi Component yang berbeda-beda (Sidebar dll) => ada di record mas mul
+- [x] Import vue router menggunakan "lazy loading router" => sudah paham
+- [x] Semua router-link menggunakan "name" => ada di file :
+  - [x] Header
+  - [x] Sidebar
+  - [x] Data Album
+  - [x] Data Photo
+  - [x] Data Post
+- [ ] Tambah "guard auth" di tipe data post => contoh di repo mas diki
+- [ ] Reusable Pagination (optional) => ada di tab pin chrome
 
 # Semua Materi Vue ~ Kalo Senggang **HARUS** dipraktikkan!
 
