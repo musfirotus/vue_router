@@ -1,4 +1,4 @@
-# vue_router
+# vue-router-advance
 
 ## Task Features
 - [x] Menu tiap data (Home, Album, Post, Photo)
