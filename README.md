@@ -11,8 +11,8 @@
 | 4.  | Sidebar (named view) | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: |
 
 - [ ] Album relation to Photo
-- [x] Implementasi Component yang berbeda-beda (Sidebar dll) => ada di record mas mul
-- [x] Import vue router menggunakan "lazy loading router" => sudah paham
+- [x] Implementasi Component yang berbeda-beda (Sidebar dll)
+- [x] Import vue router menggunakan "lazy loading router"
 - [x] Semua router-link menggunakan "name" => ada di file :
   - [x] Header
   - [x] Sidebar
