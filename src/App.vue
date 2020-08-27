@@ -27,6 +27,11 @@ export default {
     SideBar,
     Widget,
     Footer
+  },
+  data() {
+    return {
+      isAdmin: false,
+    };
   }
 }
 </script>

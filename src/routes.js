@@ -1,16 +1,8 @@
-// import Home from "./pages/Home.vue";
+// ini bisa masuk routes nya (buka komentarnya kalo mau test)
+// const isAdmin = "Posts";
 
-// import PostData from "./pages/Posts/Data.vue";
-// import PostIndex from "./pages/Posts/Index.vue";
-// import PostDetail from "./pages/Posts/Detail.vue";
-
-// import PhotoIndex from "./pages/Photos/Index.vue";
-// import PhotoData from "./pages/Photos/Data.vue";
-// import PhotoDetail from "./pages/Photos/Detail.vue";
-
-// import AlbumIndex from "./pages/Albums/Index.vue";
-// import AlbumData from "./pages/Albums/Data.vue";
-// import AlbumDetail from "./pages/Albums/Detail.vue";
+// ini ga bisa masuk routesnya
+const isAdmin = "";
 
 const routes = [
   {
@@ -38,6 +30,12 @@ const routes = [
           import(/* webpackChunkName: "PostDetail" */ "./pages/Posts/Detail.vue")
       },
     ],
+    beforeEnter: (to, from, next) => {
+      if (to.name !== isAdmin) {
+        alert("Ngga boleh akses! Spyan kan bukan admin..");
+        next({ name: "Home" });
+      } else next();
+    }
   },
   {
     path: "/photo",
