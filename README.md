@@ -14,9 +14,31 @@
 - [ ] Tambah "guard auth" di tipe data post
 - [ ] Reusable Pagination (optional)
 
+# Semua Materi Vue ~ Kalo Senggang **HARUS** dipraktikkan!
+## Poin Pembelajaran Vue-Component
+- Vue component
+- Slot
+- Props
+- Emit
+- Dynamic Component
+
+## Poin Pembelajaran Vue-Plugin
+- Mixins
+- Custom Directives
+- Render Functions
+- Plugins
+- Filter
+
 ## Poin Pembelajaran Vue-Router
+- Vue route
+- Dinamyc route
 
 ## Poin Pembelajaran Vue-Router-Advance
+- Vue route name
+- Named route
+- Lazyloading route
+- Alias
+- Redirect
 
 ## Project setup
 ```
