@@ -1,18 +1,13 @@
 <template>
-  <div class="flex items-center justify-between flex-wrap bg-gray-900 w-full p-4">
     <main class="w-3/4 bg-white text-black text-2xl">
+    <section class="blog text-gray-700 body-font">
       <router-view></router-view>
+      </section>
     </main>
-    <SideBar /> 
-  </div>
 </template>
 
 <script>
-  import SideBar from './SideBar.vue'
   export default {
-    name: 'Body',
-    components: {
-      SideBar
-    }
+    name: 'Body'
   }
 </script>

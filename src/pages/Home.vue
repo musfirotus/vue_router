@@ -1,5 +1,5 @@
 <template>
-  <section class="blog text-gray-700 body-font">
+  <div>
     <h1 class="text-center mt-12">Home Page</h1>
       <div class="container px-5 py-24 mx-12 mb-32">
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
@@ -14,7 +14,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 </template>
 
 <script>

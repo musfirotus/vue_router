@@ -1,6 +1,5 @@
 <template>
-    <section class="blog text-gray-700 body-font">
-      
+    <div>
       <div class="container px-5 py-24 mx-auto">
         <h1 class="font-bold text-center mb-8 -mt-16 text-5xl">Daftar Postingan</h1>
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
@@ -25,9 +24,8 @@
           </paginate>
           <paginate-links for="posting" :limit="10" class="mt-8"></paginate-links>
         </div>
-        
       </div>
-    </section>
+    </div>
 </template>
 
 <script>
