@@ -1,11 +1,11 @@
 # vue-router-advance
 
 ## Task Features
-| No. | Features      | Home  | Album | Post  | Photo |
-|:---:|:-------------:|:-----:|:-----:|:-----:|:-----:|
-| 1.  | Menu          | - [x] | - [x] | - [x] | - [x] |
-| 2.  | Halaman List  | - [x] | - [x] | - [ ] | - [ ] |
-| 3.  | Halaman List  | - [x] | - [x] | - [ ] | - [ ] |
+| No. | Features      | Home               | Album              | Post               | Photo              |
+|:---:|:-------------:|:------------------:|:------------------:|:------------------:|:------------------:|
+| 1.  | Menu          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 2.  | Halaman List  | :heavy_check_mark: | :heavy_check_mark: | - [ ] | - [ ] |
+| 3.  | Halaman List  | :heavy_check_mark: | :heavy_check_mark: | - [ ] | - [ ] |
 - [x] Menu tiap data (Home, Album, Post, Photo)
 - [x] Implementasi Component yang berbeda-beda (Sidebar dll)
 - [x] Halaman List tiap data :
