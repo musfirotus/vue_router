@@ -1,26 +1,17 @@
 # vue-router-advance
 
 ## Task Features
-| No. | Features      | Home               | Album              | Post               | Photo              |
-|:---:|:-------------:|:------------------:|:------------------:|:------------------:|:------------------:|
-| 1.  | Menu          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 2.  | Halaman List  | :heavy_check_mark: | :heavy_check_mark: | - [ ] | - [ ] |
-| 3.  | Halaman List  | :heavy_check_mark: | :heavy_check_mark: | - [ ] | - [ ] |
-- [x] Menu tiap data (Home, Album, Post, Photo)
+| No. | Features             | Home               | Album              | Post               | Photo              |
+|:---:|:--------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
+| 1.  | Menu                 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 2.  | Halaman List         | :heavy_check_mark: | :heavy_check_mark: |  |  |
+| 3.  | Halaman Detail       | :heavy_check_mark: | :heavy_check_mark: |  |  |
+| 4.  | Array Pagination     | -                  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 4.  | Sidebar (named view) |  |  |  |  |
 - [x] Implementasi Component yang berbeda-beda (Sidebar dll)
-- [x] Halaman List tiap data :
-  - [x] Album
-  - [x] Post
-  - [x] Photo
-- [x] Halaman Detail tiap data :
-  - [x] Album
-  - [x] Post
-  - [x] Photo
-- [x] Array Pagination di halaman list tiap data :
-  - [x] Album
-  - [x] Post
-  - [x] Photo
-- [ ] Sidebar tiap data menggunakan *
+- [ ] Import vue router menggunakan "lazy loading router"
+- [ ] Semua router-link menggunakan "name"
+- [ ] Tambah "guard auth" di tipe data post
 
 ## Poin Pembelajaran Vue-Router
 
