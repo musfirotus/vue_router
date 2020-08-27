@@ -15,7 +15,7 @@
                 <div class="title-post font-medium">{{ post.title }}</div>
                 <div class="summary-post text-base text-justify">
                   {{ post.body }}
-                  <router-link class="bg-blue-100 text-blue-500 mt-4 block rounded p-2 text-sm" :to="`/post/detail/${post.id}`">
+                  <router-link class="bg-blue-100 text-blue-500 mt-4 block rounded p-2 text-sm" :to="{ name: 'DetailPost', params: { id: post.id }}">
                     Read More
                   </router-link>
                 </div>

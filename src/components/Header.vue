@@ -6,10 +6,10 @@
     </div>
     <div class="w-3/4 block flex-grow lg:flex lg:items-center lg:w-auto">
       <div class="text-lg text-white lg:flex-grow block mt-4 lg:inline-block lg:mt-0 font-semibold float-right">
-        <router-link to="/" class="mr-4 hover:text-blue-500">Home</router-link>
-        <router-link to="/post" class="mr-4 hover:text-blue-500">Post</router-link>
-        <router-link to="/photo" class="mr-4 hover:text-blue-500">Photo</router-link>
-        <router-link to="/album" class="-mr-4 hover:text-blue-500">Album</router-link>
+        <router-link :to="{ name: 'Home' }" class="mr-4 hover:text-blue-500">Home</router-link>
+        <router-link :to="{ name: 'Posts' }" class="mr-4 hover:text-blue-500">Post</router-link>
+        <router-link :to="{ name: 'Photos' }" class="mr-4 hover:text-blue-500">Photo</router-link>
+        <router-link :to="{ name: 'Albums' }" class="-mr-4 hover:text-blue-500">Album</router-link>
       </div>
     </div>
   </header>

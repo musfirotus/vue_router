@@ -13,7 +13,7 @@
             <div style="min-width: 294px;" class=" w-70 border border-purple-600 bg-white shadow-lg rounded-lg overflow-hidden p-5">
               <div class="title-post font-medium">{{ album.title }}</div>
               <div class="summary-post text-base text-justify">
-                <router-link class="bg-blue-100 text-blue-500 mt-4 block rounded p-2 text-sm" :to="'/album/detail/'+album.id">
+                <router-link class="bg-blue-100 text-blue-500 mt-4 block rounded p-2 text-sm" :to="{ name: 'DetailAlbum', params: { id: album.id }}">
                   <span class="">Read Mode</span>
                 </router-link>
               </div>
