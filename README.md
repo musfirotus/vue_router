@@ -6,10 +6,10 @@
   - [x] Album
   - [x] Post
   - [x] Photo
-- [ ] Halaman Detail tiap data :
-  - [ ] Album
-  - [ ] Post
-  - [ ] Photo
+- [x] Halaman Detail tiap data :
+  - [x] Album
+  - [x] Post
+  - [x] Photo
 - [x] Array Pagination di halaman list tiap data :
   - [x] Album
   - [x] Post

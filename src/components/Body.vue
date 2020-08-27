@@ -3,7 +3,7 @@
     <main class="w-3/4 bg-white text-black text-2xl">
       <router-view></router-view>
     </main>
-    <SideBar />
+    <SideBar /> 
   </div>
 </template>
 

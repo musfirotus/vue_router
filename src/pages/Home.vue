@@ -1,6 +1,7 @@
 <template>
   <section class="blog text-gray-700 body-font">
-      <div class="container px-5 py-24 mx-auto">
+    <h1 class="text-center mt-12">Home Page</h1>
+      <div class="container px-5 py-24 mx-12 mb-32">
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           <div class="grid grid-cols-3 grid-rows-auto gap-4 p-4">
             <div class="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center" style="background-image: url(https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"></div>
