@@ -19,7 +19,7 @@
   - [x] Data Album
   - [x] Data Photo
   - [x] Data Post
-- [ ] Tambah "guard auth" di tipe data post => contoh di repo mas diki
+- [x] Tambah "guard auth" di tipe data post => contoh di repo mas diki
 - [ ] Reusable Pagination (optional) => ada di tab pin chrome
 
 # Semua Materi Vue ~ Kalo Senggang **HARUS** dipraktikkan!
