@@ -1,4 +1,5 @@
 import Home from './pages/Home.vue'
+
 import Post from './pages/Posts/Data.vue'
 import Photo from './pages/Photos/Data.vue'
 import Album from './pages/Albums/Data.vue'

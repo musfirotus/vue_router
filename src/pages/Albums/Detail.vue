@@ -1,8 +1,7 @@
 <template>
   <div>
     Album Page
-    {{ message }}
-    {{ $route.params.id }}
+    <!-- {{ $route.params.id }} -->
   </div>
 </template>
 
