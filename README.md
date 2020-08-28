@@ -8,7 +8,7 @@
 | 2.  |     Halaman List     |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    | Kemarin   |
 | 3.  |    Halaman Detail    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    | Kemarin   |
 | 4.  |   Array Pagination   |            -             |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    | Kemarin   |
-| 4.  | Sidebar (named view) | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | Wajib     |
+| 4.  | Sidebar (named view) |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    | Wajib     |
 
 - [ ] Album relation to Photo (Wajib)
 - [x] Implementasi Component yang berbeda-beda (Sidebar dll) (Wajib tapi Additional, wkwk)
