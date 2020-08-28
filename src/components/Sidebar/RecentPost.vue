@@ -1,18 +1,19 @@
 <template>
   <div>
-    <h2 class="block p-4 text-grey-darker font-bold border-purple hover:bg-grey-lighter border-r-4">SideBar Links</h2>
-    <ul class="list-reset">
-      <li >
-        <router-link :to="{ name: 'Home' }" class="block p-4 text-grey-darker font-semibold border-purple hover:bg-grey-lighter border-r-4">Home</router-link>
+    <h2 class="block p-4 text-grey-darker font-bold border-purple hover:bg-grey-lighter border-r-4">Recent Post</h2>
+    <ul class="list-outside">
+      <li class="">
+        <h1 class="block p-4 text-grey-darker text-lg underline text-center font-semibold border border-red-700 p hover:bg-grey-lighter border-r-4">This Week</h1>
       </li>
-      <li >
-        <router-link :to="{ name: 'Posts' }" class="block p-4 text-grey-darker font-semibold border-purple hover:bg-grey-lighter border-r-4">Post</router-link>
+      <li class="pt-8 px-8">
+        <p class="sub-color text-base mb-4">
+          Sed Commodi Libero id Nesciunt Modi Vitae
+        </p>
       </li>
-      <li >
-        <router-link :to="{ name: 'Photos' }" class="block p-4 text-grey-darker font-semibold border-purple hover:bg-grey-lighter border-r-4">Photo</router-link>
-      </li>
-      <li >
-        <router-link :to="{ name: 'Albums' }" class="block p-4 text-grey-darker font-semibold border-purple hover:bg-grey-lighter border-r-4">Album</router-link>
+      <li class="px-8">
+        <p class="sub-color text-base mb-4">
+          Magnam Dolor Sed Enim Vel Optio Donsequuntur
+        </p>
       </li>
     </ul>
   </div>

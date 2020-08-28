@@ -73,7 +73,7 @@ const routes = [
     path: "/album",
     components: {
       default: () =>import(/* webpackChunkName: "AlbumIndex" */ "./pages/Albums/Index.vue"),
-      'sidebar': () => import(/* webpackChunkName: "AlbumSidebar" */ "./components/Sidebar/RecentAlbum")
+      'sidebar': () => import(/* webpackChunkName: "AlbumSidebar" */ "./components/Sidebar/RecentAlbum.vue")
     },
     children: [
       {
@@ -81,7 +81,7 @@ const routes = [
         name: "Albums",
         components: {
           default: () =>import(/* webpackChunkName: "AlbumData" */ "./pages/Albums/Data.vue"),
-          'sidebar': () => import(/* webpackChunkName: "AlbumSidebar" */ "./components/Sidebar/RecentAlbum")
+          'sidebar': () => import(/* webpackChunkName: "AlbumSidebar" */ "./components/Sidebar/RecentAlbum.vue")
         }
       },
       {
@@ -89,7 +89,7 @@ const routes = [
         name: "DetailAlbum",
         components: {
           default: () =>import(/* webpackChunkName: "AlbumDetail" */ "./pages/Albums/Detail.vue"),
-          'sidebar': () => import(/* webpackChunkName: "AlbumSidebar" */ "./components/Sidebar/RecentAlbum")
+          'sidebar': () => import(/* webpackChunkName: "AlbumSidebar" */ "./components/Sidebar/RecentAlbum.vue")
         }
       },
     ],
