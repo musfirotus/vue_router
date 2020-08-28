@@ -84,6 +84,7 @@ const routes = [
       {
         path: "detail/:id",
         name: "DetailAlbum",
+        props: true,
         components: {
           default: () =>import(/* webpackChunkName: "AlbumDetail" */ "./pages/Albums/Detail.vue"),
           'sidebar': () => import(/* webpackChunkName: "AlbumSidebar" */ "./components/Sidebar/RecentAlbum.vue")

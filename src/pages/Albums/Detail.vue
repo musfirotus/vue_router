@@ -3,12 +3,14 @@
     <div class="container px-5 mx-auto min-h-screen">
       <div class="mx-auto my-12 max-w-screen-lg h-full rounded shadow-lg">
           <h1 class="font-semibold text-center text-3xl">{{ album.title }}</h1>
+          <h1>{{ albumPhotos.id}}</h1>
           <div
             v-for="(foto, i) in albumPhotos"
             :key="i"
             class="max-w rounded border border-gray-300 shadow-lg pt-5"
           >
             <img :src="foto.thumbnailUrl" alt="" />
+            <h1>{{ foto.albumId }}</h1>
           </div>
       </div>
     </div>
@@ -21,20 +23,22 @@ import photos from "../../assets/dummy/photo";
 
 export default {
   name: "AlbumDetail",
+  props: ['id'],
   data() {
     return {
       album: [],
       albumPhotos: []
     };
   },
-  created() {
+  mounted() {
     console.log("Album created.");
-    const filteredAlbum = this.album = albums.filter(
+    this.album = albums.filter(
         (album) => album.id == this.$route.params.id
       )[0];
-    // this.album = this.getById([albums, this.$route.params.id])[0]
-    const filteredPhoto = this.albumPhotos = photos.filter(photo=>photo.albumId==this.album.id)
-    return { filteredAlbum, filteredPhoto }
+    this.albumPhotos = photos.filter(
+      (val) => val.albumId == this.$route.params.id
+    );
+    console.log(this.id, this.$props.id);
   },
 };
 </script>
