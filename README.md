@@ -10,7 +10,7 @@
 | 4.  |   Array Pagination   |            -             |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    | Kemarin   |
 | 4.  | Sidebar (named view) |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    | Wajib     |
 
-- [ ] Album relation to Photo (Wajib)
+- [x] Album relation to Photo (Wajib)
 - [x] Implementasi Component yang berbeda-beda (Sidebar dll) (Wajib tapi Additional, wkwk)
 - [x] Import vue router menggunakan "lazy loading router" (Wajib)
 - [x] Semua router-link menggunakan "name" => ada di file : (Wajib)
