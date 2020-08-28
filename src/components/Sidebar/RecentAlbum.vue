@@ -7,12 +7,12 @@
       </li>
       <li class="pt-8 px-8">
         <p class="sub-color text-base mb-4">
-          Sed Commodi Libero id Nesciunt Modi Vitae
+          Eaque Aut Omnis A
         </p>
       </li>
       <li class="px-8">
         <p class="sub-color text-base mb-4">
-          Magnam Dolor Sed Enim Vel Optio Donsequuntur
+          Quibusdam Autem Aliquid Et Et Quia
         </p>
       </li>
     </ul>

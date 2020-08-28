@@ -1,13 +1,15 @@
 <template>
   <div>
-    <div class="mx-auto max-w-screen-lg h-full rounded shadow-lg">
-      <h1 class="font-bold text-2xl">{{ album.title }}</h1>
-      <div
-        v-for="(foto, i) in albumPhotos"
-        :key="i"
-        class="max-w rounded border border-gray-300 shadow-lg pt-5"
-      >
-        <img :src="foto.thumbnailUrl" alt="" />
+    <div class="container px-5 mx-auto min-h-screen">
+      <div class="mx-auto my-12 max-w-screen-lg h-full rounded shadow-lg">
+          <h1 class="font-semibold text-center text-3xl">{{ album.title }}</h1>
+          <div
+            v-for="(foto, i) in albumPhotos"
+            :key="i"
+            class="max-w rounded border border-gray-300 shadow-lg pt-5"
+          >
+            <img :src="foto.thumbnailUrl" alt="" />
+          </div>
       </div>
     </div>
   </div>

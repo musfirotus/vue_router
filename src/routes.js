@@ -1,8 +1,5 @@
-// ini bisa masuk routes nya (buka komentarnya kalo mau test)
-// const isAdmin = "Posts";
-
-// ini ga bisa masuk routesnya
-const isAdmin = "";
+const isAdmin = "Posts";
+// const isAdmin = "";
 
 const routes = [
   {
